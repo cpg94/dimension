@@ -1,9 +1,9 @@
 backend:
     name: test-repo
-    media_folder: static/assets
-    public_folder: assets
+media_folder: static/assets
+public_folder: assets
   
-  collections:
+collections:
     - name: blog
       label: Blog
       folder: blog
