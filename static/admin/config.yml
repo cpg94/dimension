@@ -1,12 +1,13 @@
 backend:
-    name: test-repo
+    name: github
+    repo: cpg94/dimension
 media_folder: static/assets
 public_folder: assets
   
 collections:
-    - name: blog
-      label: Blog
-      folder: blog
+    - name: event
+      label: Event
+      folder: event
       create: true
       fields:
         - { name: path, label: Path }
